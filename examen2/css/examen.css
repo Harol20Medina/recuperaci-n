@@ -1,0 +1,91 @@
+.body {
+    padding: 0;
+    margin: 0;
+
+}
+
+.container {
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    height: 100rem;
+    align-content: center;
+    margin: auto;
+    display: flex;
+}
+
+.izquierda {
+
+    background-color: rgb(165, 165, 165);
+    flex-direction: column;
+    height: 600px;
+    border: solid rgb(7, 0, 204) 1px;
+    border-radius: 20px;
+    width: 400px;
+
+}
+
+.derecha {
+    width: 800px;
+    border: 1px solid rgb(1, 68, 255);
+    height: 500px;
+    margin-left: 10px;
+
+
+}
+h1{
+    color: red;
+
+    text-align: center;
+}
+.cajaI {
+    color: rgb(3, 3, 3);
+    margin-left: 20px;
+    margin-top: 2rem;
+    width: 90%;
+    height: 50rem;
+    border: solid rgb(0, 0, 0) 1px;
+    border-radius: 20px;
+    height: 540px;
+    font-style:italic;
+
+
+}
+
+
+#nombre {
+    width: 50%;
+    height: 2rem;
+    border: solid white 1px;
+    text-align: center;
+}
+
+#Registrar{
+    margin-top: 1rem;
+    width: 30%;
+    height: 2rem;
+    border: none;
+    background-color: rgb(12, 114, 231);
+    cursor: pointer;
+    color: white;
+}
+
+#guardar:hover {
+    background-color: brown;
+}
+#table {
+    color: white;
+    margin: auto;
+}
+
+th {
+    border: 1px solid rgb(23, 187, 252);
+    background-color: rgb(8, 141, 218);
+    padding: 5px;
+    width: 7rem;
+    
+}
+td {
+    color: rgb(1, 8, 14);
+    text-align: center;
+    border: solid white 1px;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/examen.css">
+    <script src="https://kit.fontawesome.com/3c0bd07c85.js" crossorigin="anonymous"></script>
+    <title>Examen</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="izquierda">
+
+            <div class="Almacen">
+                <h1>Almacen</h1>
+                    <select name="Almacen:" id="almacen">
+                        <option value="0" selected>Seleccione su Almacen</option>
+                        <option value="1">Ate</option>
+                        <option value="2">La Molina</option>
+                        <option value="3">Chosica</option>
+                        <option value="4">Ñaña</option>
+                        <option value="5">Huaycan</option>
+                    </select>
+                </div>
+
+
+                <div class="Categoria">
+                    <H2>Categoria:</H2>
+                    <select name="Escuela profesional" id="ep">
+                        <option value="0">Categorias</option>
+                        <option value="1">Lacteos</option>
+                        <option value="2">Lipdidos</option>
+                        <option value="3">Detergentes</option>
+                    </select>
+
+                </div>
+
+                <h2>Producto:</h2>
+                <input type="text" id="producto">
+                <h2>Precio:</h2>
+                <input type="number" id="precio">
+                <h2>cantidad:</h2>
+                <input type="number" id="cantidad">
+
+                <div>
+
+                <button id="Registrar" onclick="test()">Registrar</button>
+
+                </div>
+
+            </div>
+
+        
+
+
+
+        <div class="derecha">
+            
+            
+            <table id="table">
+                <thead>
+                    <tr>
+                        <th>Almacen</th>
+                        <th>Categorias</th>
+                        <th>Producto</th>
+                        <th>Precio</th>
+                        <th>Cantidad</th>
+                        <th>Accion</th>
+                    </tr>
+                </thead>
+                <tbody id="tbd"></tbody>
+            </table>
+        </div>
+
+    </div>
+</body>
+<script src="examen.js"></script>
+
+</html>
